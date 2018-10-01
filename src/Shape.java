@@ -43,7 +43,7 @@ public class Runner
        int height;
        int width;
        Constructor
-       public Rectangle(int height, int width) //Don’t forget to initialize type
+       public Rectangle(int height, int width); //Don’t forget to initialize type
        Methods
        getArea()
        getPerimeter()
