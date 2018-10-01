@@ -1,3 +1,6 @@
+/*Yu Phillip
+*/
+ */
 public class Rectangle extends Shape {
     private int side;
 
