@@ -5,7 +5,7 @@ public class Runner
         Shape shape1 = new  Rectangle(18,10);
         Shape shape2 = new Etriangle(5);
         Shape shape3 = new Circle(10);
-        Shape shape4= new ScalTriangle(5,6,8);
+        Shape shape4= new ScaleTriangle(5,6,8);
 
         //Shape shape1 = new RPentagon(side:5);
         //System.out.println(shape4);

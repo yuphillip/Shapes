@@ -1,4 +1,4 @@
-public class ScaleTriangle {
+public class ScaleTriangle extends Shape {
     private int side;
     private int base;
     private int height;
@@ -20,4 +20,4 @@ public class ScaleTriangle {
         return (side+base+height);
     }
 }
-}
+
