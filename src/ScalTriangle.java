@@ -1,11 +1,10 @@
-/*Matthew Moore*/
-/*uifueuf*/
-public class Etriangle extends Shape {
+public class ScalTriangle {
     private int side;
+    priva
 
-    public Etriangle(int side)
+    public ScalTriangle(int side)
     {
-        super ("Etriangle");
+        super ("ScalTriangle");
         this.side = side;
     }
     public double getArea()
@@ -17,4 +16,5 @@ public class Etriangle extends Shape {
     {
         return (side*3);
     }
+}
 }
