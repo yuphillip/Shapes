@@ -1,20 +1,23 @@
-public class ScalTriangle {
+public class ScaleTriangle {
     private int side;
-    priva
+    private int base;
+    private int height;
 
-    public ScalTriangle(int side)
+    public ScaleTriangle(int side, int base, int height)
     {
-        super ("ScalTriangle");
+        super("ScaleTriangle");
         this.side = side;
+        this.base = base;
+        this.height = height;
     }
     public double getArea()
     {
-        return ((1.732/4)*(side*side));
+        return ((height*base)/2);
     }
 
     public double getPerimeter()
     {
-        return (side*3);
+        return (side+base+height);
     }
 }
 }
