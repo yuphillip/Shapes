@@ -1,13 +1,16 @@
+import java.lang.reflect.Constructor;
+
 /*Yu Phillip
 */
- */
 public class Rectangle extends Shape {
-    private int side;
+    private int height;
+    private int width;
 
-    public Rectangle(int side)
+    public Rectangle(int height, int width)
     {
         super("Rectangle");
-        this.side = side;
+        this.height = height;
+        this.width = width;
     }
     public double getArea()
     {
@@ -16,6 +19,8 @@ public class Rectangle extends Shape {
 
     public double getPerimeter()
     {
-        return side*4;
+        return height + height + width + width;
     }
 }
+
+

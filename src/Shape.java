@@ -16,7 +16,7 @@ public class Runner
 {
     public static void main (String[]args)
     {
-        Shape shape1 = new  Rectangle(height:10, width:5);
+        Shape shape1 = new  Rectangle(18,10,4);
         Shape shape2 = new Etriangle(side:5);
         Shape shape3 = new Circle(radius:10);
         
@@ -37,15 +37,5 @@ public class Runner
 }
 
 
-   public class Rectangle extends Shape
-   {
-       //Fields
-       int height;
-       int width;
-       Constructor
-       public Rectangle(int height, int width); //Don’t forget to initialize type
-       Methods
-       getArea()
-       getPerimeter()
-   }
+
 
