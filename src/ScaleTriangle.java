@@ -5,7 +5,7 @@ public class ScaleTriangle {
 
     public ScaleTriangle(int side, int base, int height)
     {
-        super ("ScaleTriangle");
+        super("ScaleTriangle");
         this.side = side;
         this.base = base;
         this.height = height;
